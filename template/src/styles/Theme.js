@@ -1,7 +1,4 @@
-import { createMuiTheme } from "@material-ui/core";
-// import LatoRegular from './assets/fonts/Lato-Regular.ttf';
-
-const Theme = createMuiTheme({
+const Theme = {
   shadows: ["0px 4px 4px rgba(0, 0, 0, 0.25)"],
   palette: {
     type: "light",
@@ -31,8 +28,7 @@ const Theme = createMuiTheme({
   },
   typography: {
     fontFamily: {
-      primary: "Open Sans",
-      secondary: "OpenSans"
+      primary: "Open Sans"
     },
     size: {
       smallest: "10px",
@@ -42,6 +38,6 @@ const Theme = createMuiTheme({
       largest: "20px"
     }
   }
-});
+};
 
 export default Theme;

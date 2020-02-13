@@ -1,7 +1,7 @@
 {
-  "name": "cra-template-estartando-devs",
+  "name": "@estartando-devs/cra-template-estartando-devs",
   "author": "Estartando Devs",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "keywords": [
     "react",
     "create-react-app",
@@ -18,8 +18,11 @@
   "engines": {
     "node": ">=8"
   },
+  "workspaces": [
+    "estartando-devs/*"
+  ],
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/estartando-devs/cra-template-estartando-devs/issues"
   },
   "files": [
     "template",
