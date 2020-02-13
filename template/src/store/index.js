@@ -3,7 +3,7 @@ import { persistStore, persistReducer } from "redux-persist";
 import thunk from "redux-thunk";
 import storage from "redux-persist/lib/storage";
 
-/* PLOP_DUCK_IMPORT */
+/* PLOP_DUCKS_IMPORT */
 
 const rootReducer = combineReducers({
   /* PLOP_COMBINE_IMPORT */
