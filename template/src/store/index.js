@@ -1,11 +1,12 @@
 import { createStore, applyMiddleware, combineReducers, compose } from "redux";
 import { persistStore, persistReducer } from "redux-persist";
 import thunk from "redux-thunk";
-import userReducer from "./user/user.reducer";
 import storage from "redux-persist/lib/storage";
 
+/* PLOP_DUCK_IMPORT */
+
 const rootReducer = combineReducers({
-  user: userReducer
+  /* PLOP_COMBINE_IMPORT */
 });
 
 const persistConfig = {
