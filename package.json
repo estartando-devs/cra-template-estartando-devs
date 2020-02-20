@@ -24,6 +24,7 @@
   "bugs": {
     "url": "https://github.com/estartando-devs/cra-template-estartando-devs/issues"
   },
+  "homepage": "https://github.com/estartando-devs/cra-template-estartando-devs/wiki",
   "files": [
     "template",
     "template.json"
