@@ -1,7 +1,7 @@
 {
   "name": "cra-template-estartando-devs-react",
   "author": "Estartando Devs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "react",
     "create-react-app",
@@ -24,6 +24,7 @@
   "bugs": {
     "url": "https://github.com/estartando-devs/cra-template-estartando-devs/issues"
   },
+  "homepage": "https://github.com/estartando-devs/cra-template-estartando-devs/wiki",
   "files": [
     "template",
     "template.json"

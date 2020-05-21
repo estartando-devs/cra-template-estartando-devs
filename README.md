@@ -17,7 +17,7 @@ yarn add prettier eslint babel-eslint eslint-config-airbnb eslint-config-prettie
 
 Supondo que seu ambiente de desenvolvimento ja esteja configurado com o [NodeJS](https://nodejs.org/en/) e [creat-react-app](https://www.npmjs.com/package/create-react-app) cli, abra seu terminal e execute:
 ```shell
-npx create-react-app YOUR_PROJECT_NAME --template estartando-devs
+npx create-react-app YOUR_PROJECT_NAME --template estartando-devs-react
 ```
 
 Isso criará um projeto com as seguintes bibliotecas:
