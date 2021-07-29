@@ -1,3 +1,11 @@
-import Home from './Home'
+import React from 'react'
 
-export {Home} 
+const Home = () =>{
+    return (
+        <div>
+            home works
+        </div>
+    )
+}
+
+export default Home

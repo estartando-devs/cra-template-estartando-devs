@@ -9,13 +9,6 @@ import { ThemeProvider } from "styled-components";
 
 export default function App() {
   return (
-    <Provider store={store}>
-      <PersistGate loading={null} persistor={persistor}>
-        <ThemeProvider theme={theme}>
-          <GlobalStyles />
-          <Routes />
-        </ThemeProvider>
-      </PersistGate>
-    </Provider>
+    <Routes />
   );
 }

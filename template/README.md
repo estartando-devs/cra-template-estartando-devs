@@ -12,13 +12,11 @@ yarn add prettier eslint babel-eslint eslint-config-airbnb eslint-config-prettie
 
 Open your terminal and run:
 ```shell
-npx create-react-app YOUR_PROJECT_NAME --template jonataspinto-template
+npx create-react-app YOUR_PROJECT_NAME --template estartando-devs-react
 ```
 
 This will create a project with the following libs:
 
 * [axios](https://github.com/axios/axios)
 * [react-router-dom](https://reacttraining.com/react-router/web/guides/quick-start)
-* [styled-components](https://www.styled-components.com/)
-* [plop](https://www.npmjs.com/package/plop)
 
